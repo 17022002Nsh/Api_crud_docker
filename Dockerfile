@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED 1
 
 RUN pip install --upgrade pip
 
-COPY . /tudu
-WORKDIR /tudu
+COPY . /todo
+WORKDIR /todo
 
 RUN pip install -r requirements.txt
